@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0px;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            position: relative;
+
+        }
+        .side1{
+            height: 563px;
+            width: 70%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            justify-content: space-evenly;
+        }
+        .side1 h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 60px;
+        }
+        .side1 p{
+            font-size: 20px;    
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(76, 97, 44);
+            opacity: 0.6;
+        }
+        .side2{
+            height: 563px;
+            width: 30%;
+            background-image: linear-gradient(to right ,rgb(45, 231, 144)  , rgb(58, 232, 212));
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            justify-content:center
+        }
+        button{
+            height: 50px;
+            width:150px;
+            border-radius: 50px;
+            border: 0px;
+            background-color: white;
+            font-size: 15px;
+        }
+        .side2 h2{
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 40px;
+           
+        }
+        .side2 pre{
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+          opacity: 0.8;
+        }
+        .icons{
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            justify-content: space-around;
+            height: 50px;
+            width: 200px;
+    
+        }
+        .side1 input{
+            width:500px;
+            height: 30px;
+            border-radius: 10px;
+            border: 0px;
+            background-color: rgb(231, 249, 231);
+            color: black;
+            padding: 10px;
+        }
+        .side1 button{
+            height: 50px;
+            width: 200px;
+            background-color: rgb(27, 161, 108);
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-around;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="side1">
+        <h1>Login to your Account</h1>
+        <p>Login Using social networks</p>
+        <div class="icons">
+            <a href=""><i class="fa fa-facebook-square" style="font-size:48px;color:rgb(47, 22, 104)"></i></a>
+            <a href=""><i class="fa fa-google-plus-square" style="font-size:48px;color:rgb(201, 82, 49)"></i></a>
+            <a href=""><i class="fa fa-linkedin-square" style="font-size:48px;color:rgb(20, 22, 126)"></i></a>
+        </div>
+        <p>OR</p>
+        <input type="text" placeholder="Email">
+        
+        <input type="password" placeholder="Password">
+        <button>Sign in</button>
+        </div>
+        <div class="side2">
+            <div class="content">
+            <h2>New here?</h2>
+            <pre>Sign up and discover a great
+amount of new opportunities!</pre>
+            <button>Sign Up</button>
+        </div>
+        </div>
+
+    </div>
+</body>
+</html>
